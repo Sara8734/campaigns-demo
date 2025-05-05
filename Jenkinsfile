@@ -27,7 +27,7 @@ pipeline {
         }
         stage('build image') {
           steps {
-            sh 'docker build -t Sara8734/campaign-demo:v1 --label campaign-demo-server .'
+            sh 'docker build -t sara8734/campaign-demo:v1 --label campaign-demo-server .'
           }
         }
         stage('run container') {
